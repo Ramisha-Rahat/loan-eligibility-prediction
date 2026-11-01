@@ -161,13 +161,14 @@ When running locally, change it to:
  
 ```python
 df = pd.read_csv("Loan Eligibility Prediction.csv")
+
 ```
- 
 **7. Run all cells** from top to bottom: **Kernel → Restart & Run All**.
  
  The cells depend on each other and must run in order.
  
 ###  Option B: Run on Google Colab
+## We use this method to uplaoding dataset in colab and run each cell.
  
 1. Upload `LoanEligibilityPrediction_Assignment2_group14.ipynb` to [Google Colab](https://colab.research.google.com/).
 2. Upload `Loan Eligibility Prediction.csv` through the **Files** panel (the notebook reads it from `/content/`).
