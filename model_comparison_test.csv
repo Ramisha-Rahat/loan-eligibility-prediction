@@ -1,0 +1,11 @@
+,Accuracy,Precision,Recall,F1,Macro_F1,ROC_AUC
+Voting Ensemble,0.813,0.816,0.941,0.874,0.755,0.846
+Stacking Ensemble,0.821,0.825,0.941,0.879,0.768,0.835
+FINAL: Gradient Boosting (threshold 0.52),0.821,0.854,0.894,0.874,0.784,0.825
+Gradient Boosting,0.821,0.846,0.906,0.875,0.78,0.825
+SVM (RBF),0.813,0.816,0.941,0.874,0.755,0.822
+Random Forest,0.829,0.848,0.918,0.881,0.789,0.816
+Logistic Regression,0.805,0.808,0.941,0.87,0.741,0.8
+Decision Tree,0.821,0.832,0.929,0.878,0.772,0.786
+KNN,0.715,0.712,0.988,0.828,0.507,0.735
+Dummy (majority),0.691,0.691,1.0,0.817,0.409,0.5

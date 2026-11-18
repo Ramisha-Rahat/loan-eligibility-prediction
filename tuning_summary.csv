@@ -1,0 +1,7 @@
+Model,Search,Best_CV_ROC_AUC,Best_Parameters
+Logistic Regression,GridSearchCV,0.7138,"{'C': 100, 'class_weight': None}"
+KNN,GridSearchCV,0.6685,"{'n_neighbors': 21, 'p': 1, 'weights': 'distance'}"
+SVM (RBF),GridSearchCV,0.7486,"{'C': 10, 'class_weight': None, 'gamma': 0.01, 'kernel': 'rbf'}"
+Decision Tree,GridSearchCV,0.7675,"{'class_weight': None, 'criterion': 'gini', 'max_depth': 5, 'min_samples_leaf': 10}"
+Random Forest,RandomizedSearchCV,0.7613,"{'class_weight': 'balanced_subsample', 'max_depth': None, 'max_features': 0.5, 'min_samples_leaf': 1, 'min_samples_split': 6, 'n_estimators': 317}"
+Gradient Boosting,RandomizedSearchCV,0.766,"{'learning_rate': 0.048, 'max_depth': 3, 'min_samples_leaf': 4, 'n_estimators': 113, 'subsample': 0.787}"
